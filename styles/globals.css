@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+video::-webkit-media-controls-play-button {
+  display: none !important;
+}
+video::-webkit-media-controls-mute-button {
+    display: flex !important;
+}
+
+video::-webkit-media-controls-fullscreen-button,
+video::-webkit-media-controls-timeline,
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display,
+video::-webkit-media-controls-toggle-closed-captions-button {
+    display: none !important;
+}
+
+video::-webkit-media-controls-playback-rate-button,
+video::-webkit-media-controls-picture-in-picture-button {
+    display: none !important;
+}
