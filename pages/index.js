@@ -12,8 +12,9 @@ export default function Home() {
           La Villa de los Cuatro Vientos
         </div>
         <video
-          autoPlay
+          autoplay="autoplay"
           muted
+          loop
           className="z-0 w-screen"
         >
           <source src="media/vcv_sm.mp4" type="video/mp4" />
