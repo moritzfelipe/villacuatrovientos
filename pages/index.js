@@ -15,6 +15,7 @@ export default function Home() {
           autoplay="autoplay"
           muted
           loop
+          playsinline
           className="z-0 w-screen"
         >
           <source src="media/vcv_sm.mp4" type="video/mp4" />
