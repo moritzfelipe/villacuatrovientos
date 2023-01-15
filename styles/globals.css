@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-video::-webkit-media-controls-play-button {
+/* video::-webkit-media-controls-play-button {
   display: none !important;
 }
 video::-webkit-media-controls-mute-button {
@@ -20,4 +20,4 @@ video::-webkit-media-controls-toggle-closed-captions-button {
 video::-webkit-media-controls-playback-rate-button,
 video::-webkit-media-controls-picture-in-picture-button {
     display: none !important;
-}
+} */

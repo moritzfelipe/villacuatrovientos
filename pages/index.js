@@ -14,10 +14,6 @@ export default function Home() {
         <video
           autoPlay
           muted
-          loop
-          controls
-          disablePictureInPicture
-          controlsList="nodownload noplaybackrate nopictureinpicture"
           className="z-0 w-screen"
         >
           <source src="media/vcv_sm.mp4" type="video/mp4" />
