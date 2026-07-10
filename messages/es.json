@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "title": "Villa Cuatro Vientos — Villa vacacional con piscina junto a Comares, Andalucía",
+    "description": "Villa vacacional privada en el corazón de la Axarquía, Andalucía. Vistas panorámicas de Sierra Nevada y el Mediterráneo, piscina circular y el pueblo mágico de Comares a un paseo. Para 7 huéspedes."
+  },
+  "nav": {
+    "house": "La casa",
+    "gallery": "Galería",
+    "area": "El entorno",
+    "reviews": "Reseñas",
+    "info": "A tener en cuenta",
+    "book": "Reserva tu estancia"
+  },
+  "hero": {
+    "location": "Comares · Axarquía · Andalucía",
+    "tagline": "Una casa en una colina, abierta a los cuatro vientos — con vistas de Sierra Nevada al Mediterráneo.",
+    "reviewsOnAirbnb": "{count} reseñas en Airbnb",
+    "guestFavourite": "Favorito entre huéspedes",
+    "book": "Reservar en Airbnb",
+    "discover": "Descubre la casa",
+    "scroll": "Desliza"
+  },
+  "intro": {
+    "eyebrow": "Los cuatro vientos",
+    "heading": "Lejos de las multitudes, en el corazón de la Axarquía",
+    "p1": "Villa Cuatro Vientos se alza sola sobre una pequeña colina, rodeada de olivares y almendros, a un hermoso paseo del pueblo encalado de Comares. En todas las direcciones, las vistas quitan el aliento: Sierra Nevada, el Mediterráneo y, en un día despejado, hasta la costa de Marruecos.",
+    "p2": "La casa fue construida en estilo andaluz y amueblada con cariño por Ursula, su propietaria, con objetos recogidos en sus viajes por Sudamérica. Las rutas de senderismo señalizadas empiezan en la misma puerta; la piscina, el patio y una hamaca bajo la vieja encina te esperan en casa.",
+    "hostTitle": "Tu anfitriona",
+    "hostText": "«Creé mi casa de ensueño española para disfrutarla con amigos y familia. Villa Cuatro Vientos siempre ha sido mi refugio para desconectar y disfrutar de la buena vida — y espero que signifique lo mismo para mis huéspedes. Siéntete bienvenido y disfruta.» — Ursula",
+    "facts": {
+      "guests": "7 huéspedes",
+      "bedrooms": "2 dormitorios",
+      "beds": "5 camas",
+      "baths": "2 baños",
+      "pool": "Piscina privada"
+    }
+  },
+  "house": {
+    "eyebrow": "La casa",
+    "heading": "Espacio para respirar, dentro y fuera",
+    "living": {
+      "title": "El salón",
+      "text": "Un salón amplio y luminoso con estufa de leña para las noches frescas. Se abre directamente a la terraza delantera — y a las vistas."
+    },
+    "kitchen": {
+      "title": "La cocina",
+      "text": "De estilo español: informal, rural y bien equipada. Desde la cocina se sube a la terraza cubierta, con la piscina y la ducha exterior justo al lado."
+    },
+    "sleep": {
+      "title": "Dormitorios y baños",
+      "text": "Dos dormitorios — uno con cama doble y dos individuales, otro con cama doble y una individual — y dos baños. Ambos dormitorios tienen aire acondicionado y despiertan con vistas."
+    },
+    "patio": {
+      "title": "El patio",
+      "text": "El corazón de la casa, según la mejor tradición andaluza: un patio interior privado para leer en paz, alargar la sobremesa o quedarse hasta tarde con amigos."
+    },
+    "pool": {
+      "title": "Piscina y jardín",
+      "text": "Una piscina circular que mira sobre las montañas hasta el mar, muchas terrazas y un gran jardín vallado con mucha privacidad — y una hamaca bajo la vieja encina."
+    }
+  },
+  "gallery": {
+    "eyebrow": "Galería",
+    "heading": "Echa un vistazo",
+    "filters": {
+      "all": "Todo",
+      "inside": "Salón y cocina",
+      "sleep": "Dormitorios y baños",
+      "outdoors": "Piscina, patio y jardín",
+      "surroundings": "El entorno"
+    },
+    "close": "Cerrar",
+    "prev": "Foto anterior",
+    "next": "Foto siguiente",
+    "openPhoto": "Abrir foto"
+  },
+  "area": {
+    "eyebrow": "El entorno",
+    "heading": "Comares, un pueblo mágico a tus pies",
+    "p1": "El pueblo encalado de Comares — votado «Pueblo Mágico de España» — está a poca distancia a pie. Las huellas de cerámica te guían por sus estrechas calles moriscas, y en los bares y restaurantes locales te enamorarás de la cocina casera andaluza.",
+    "p2": "El pueblo cuenta con supermercado, farmacia, panadería de horno de leña, cajero automático y una pista de pádel gratuita — además de la tirolina más larga de España y tres vías ferratas para los más aventureros.",
+    "walks": "Las rutas de senderismo señalizadas empiezan justo delante de la puerta y serpentean entre olivares y almendros, pasando por manantiales naturales.",
+    "daytripsHeading": "Excursiones de un día desde la casa",
+    "daytrips": {
+      "beach": { "title": "Torre del Mar", "text": "La playa más cercana, a 30 km — pescaíto fresco en el paseo marítimo incluido." },
+      "malaga": { "title": "Málaga", "text": "Cultura, museos y el mercado de Atarazanas, a menos de una hora." },
+      "granada": { "title": "Granada", "text": "La Alhambra y Sierra Nevada — cuentos de hadas en piedra." },
+      "cordoba": { "title": "Córdoba", "text": "La Mezquita, única en el mundo." },
+      "ronda": { "title": "Ronda", "text": "Dramáticamente asomada a su tajo." },
+      "caminito": { "title": "Caminito del Rey", "text": "Un sendero impresionante por el desfiladero de los Gaitanes. Cerca: El Torcal, las cuevas de Nerja y el embalse de la Viñuela." }
+    },
+    "mapTitle": "Dónde estarás"
+  },
+  "reviews": {
+    "eyebrow": "Reseñas de huéspedes",
+    "heading": "Los huéspedes lo llaman su paraíso",
+    "ratingLabel": "en Airbnb, sobre {count} reseñas",
+    "guestFavourite": "Favorito entre huéspedes — uno de los alojamientos más queridos de Airbnb",
+    "readAll": "Lee todas las reseñas en Airbnb"
+  },
+  "info": {
+    "eyebrow": "A tener en cuenta",
+    "heading": "La parte práctica",
+    "items": {
+      "checkin": { "title": "Llegada y salida", "text": "Check-in a partir de las 15:00, salida antes de las 10:00. Te recibiremos en persona." },
+      "car": { "title": "El coche es imprescindible", "text": "Para disfrutar plenamente de esta hermosa parte de Andalucía necesitarás coche. Hay aparcamiento gratuito para tres coches en la propiedad." },
+      "registration": { "title": "Registro de viajeros", "text": "La ley española exige registrar a cada huésped mayor de 14 años (documento, dirección, datos de contacto). Se gestiona con una app de check-in a la llegada." },
+      "pets": { "title": "Mascotas", "text": "Se admiten mascotas previa consulta; se aplica un pequeño suplemento. Toda la propiedad está vallada." },
+      "aircon": { "title": "Aire acondicionado", "text": "Ambos dormitorios tienen aire acondicionado con pago por uso. El wifi es gratuito en toda la casa." },
+      "family": { "title": "Familias", "text": "Cuna de viaje, trona y libros y juguetes infantiles disponibles bajo petición." }
+    },
+    "registrationNumber": "Registro de turismo: VTAR/MA/0367 (Andalucía)"
+  },
+  "book": {
+    "eyebrow": "Reserva tu estancia",
+    "heading": "Andalucía te espera",
+    "text": "Villa Cuatro Vientos es una casa para quienes buscan unas vacaciones lejos de los puntos más concurridos de la Costa del Sol — donde relajarse es fácil y la belleza de Andalucía es abrumadora.",
+    "airbnb": "Consultar disponibilidad en Airbnb",
+    "airbnbNote": "Las reservas y los pagos se gestionan de forma segura a través de Airbnb. Índice de respuesta de Ursula: 100 %, normalmente en menos de una hora.",
+    "questions": "¿Preguntas sobre la casa?",
+    "message": "Escríbenos por Airbnb"
+  },
+  "footer": {
+    "tagline": "Una casa familiar en las colinas de la Axarquía, compartida con huéspedes que aman la Andalucía tranquila.",
+    "navHeading": "Explora",
+    "legalHeading": "Datos",
+    "registration": "Registro de turismo VTAR/MA/0367 — La Alquería, Comares, Málaga, España",
+    "rights": "Todos los derechos reservados.",
+    "airbnbListing": "Nuestro anuncio en Airbnb"
+  },
+  "lang": {
+    "label": "Idioma",
+    "en": "English",
+    "es": "Español",
+    "de": "Deutsch"
+  }
+}

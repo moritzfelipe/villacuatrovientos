@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    @apply bg-azul text-paper;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply text-[0.7rem] font-medium uppercase tracking-[0.28em] text-terra;
+  }
+
+  .display {
+    @apply font-serif font-medium leading-[1.05] tracking-tight;
+  }
+
+  .prose-relaxed {
+    @apply leading-relaxed text-ink-soft;
+  }
+}
+
+/* Thin decorative rule with a diamond, echoing Andalusian tilework */
+.tile-rule {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.tile-rule::before,
+.tile-rule::after {
+  content: "";
+  height: 1px;
+  flex: 1;
+  background: currentColor;
+  opacity: 0.25;
+}

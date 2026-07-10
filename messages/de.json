@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "title": "Villa Cuatro Vientos — Ferienvilla mit Pool bei Comares, Andalusien",
+    "description": "Private Ferienvilla im Herzen der Axarquía, Andalusien. Panoramablick auf die Sierra Nevada und das Mittelmeer, runder Pool und das magische Dorf Comares in Gehweite. Platz für 7 Gäste."
+  },
+  "nav": {
+    "house": "Das Haus",
+    "gallery": "Galerie",
+    "area": "Umgebung",
+    "reviews": "Bewertungen",
+    "info": "Gut zu wissen",
+    "book": "Jetzt buchen"
+  },
+  "hero": {
+    "location": "Comares · Axarquía · Andalusien",
+    "tagline": "Ein Haus auf dem Hügel, offen zu allen vier Winden — mit Blick von der Sierra Nevada bis zum Mittelmeer.",
+    "reviewsOnAirbnb": "{count} Bewertungen auf Airbnb",
+    "guestFavourite": "Gästeliebling",
+    "book": "Auf Airbnb buchen",
+    "discover": "Das Haus entdecken",
+    "scroll": "Scrollen"
+  },
+  "intro": {
+    "eyebrow": "Die vier Winde",
+    "heading": "Fern vom Trubel, im Herzen der Axarquía",
+    "p1": "Die Villa Cuatro Vientos steht allein auf einem kleinen Hügel, umgeben von Oliven- und Mandelhainen, einen schönen Spaziergang vom weißen Dorf Comares entfernt. In alle Richtungen ist die Aussicht atemberaubend — Sierra Nevada, Mittelmeer und an klaren Tagen sogar die Küste Marokkos.",
+    "p2": "Das Haus wurde im andalusischen Stil gebaut und von Ursula, der Eigentümerin, liebevoll eingerichtet — mit Fundstücken von ihren Reisen durch Südamerika. Markierte Wanderwege beginnen direkt am Tor; Pool, Patio und eine Hängematte unter der alten Steineiche warten zu Hause.",
+    "hostTitle": "Deine Gastgeberin",
+    "hostText": "„Ich habe mir mein spanisches Traumhaus geschaffen, um es mit Freunden und Familie zu genießen. Die Villa Cuatro Vientos war immer mein Rückzugsort, um abzuschalten und la buena vida zu genießen — und ich hoffe, sie bedeutet meinen Gästen dasselbe. Fühl dich willkommen und genieße es.“ — Ursula",
+    "facts": {
+      "guests": "7 Gäste",
+      "bedrooms": "2 Schlafzimmer",
+      "beds": "5 Betten",
+      "baths": "2 Bäder",
+      "pool": "Privater Pool"
+    }
+  },
+  "house": {
+    "eyebrow": "Das Haus",
+    "heading": "Raum zum Durchatmen, drinnen wie draußen",
+    "living": {
+      "title": "Das Wohnzimmer",
+      "text": "Ein großzügiges, lichtdurchflutetes Wohnzimmer mit Holzofen für kühlere Abende. Es öffnet sich direkt zur vorderen Terrasse — und zur Aussicht."
+    },
+    "kitchen": {
+      "title": "Die Küche",
+      "text": "Im spanischen Stil: leger, ländlich und gut ausgestattet. Von der Küche geht es hinauf zur überdachten Terrasse — Pool und Außendusche liegen gleich daneben."
+    },
+    "sleep": {
+      "title": "Schlafzimmer & Bäder",
+      "text": "Zwei Schlafzimmer — eines mit Doppelbett und zwei Einzelbetten, eines mit Doppelbett und Einzelbett — und zwei Bäder. Beide Schlafzimmer haben eine Klimaanlage und wachen mit Aussicht auf."
+    },
+    "patio": {
+      "title": "Der Patio",
+      "text": "Das Herz des Hauses, nach bester andalusischer Tradition: ein privater Innenhof zum ungestörten Lesen, für lange Abendessen oder späte Stunden mit Freunden."
+    },
+    "pool": {
+      "title": "Pool & Garten",
+      "text": "Ein runder Pool mit Blick über die Berge bis zum Meer, viele Terrassen und ein großer, eingezäunter Garten mit viel Privatsphäre — und einer Hängematte unter der alten Steineiche."
+    }
+  },
+  "gallery": {
+    "eyebrow": "Galerie",
+    "heading": "Sieh dich um",
+    "filters": {
+      "all": "Alles",
+      "inside": "Wohnen & Küche",
+      "sleep": "Schlafzimmer & Bäder",
+      "outdoors": "Pool, Patio & Garten",
+      "surroundings": "Die Umgebung"
+    },
+    "close": "Schließen",
+    "prev": "Vorheriges Foto",
+    "next": "Nächstes Foto",
+    "openPhoto": "Foto öffnen"
+  },
+  "area": {
+    "eyebrow": "Die Umgebung",
+    "heading": "Comares, ein magisches Dorf vor der Tür",
+    "p1": "Das weiße Dorf Comares — gewählt zum „Pueblo Mágico de España“ — liegt in Gehweite. Keramik-Fußspuren führen dich durch die engen maurischen Gassen, und in den lokalen Bars und Restaurants verliebst du dich in die andalusische Hausmannskost.",
+    "p2": "Im Dorf gibt es Supermarkt, Apotheke, eine Bäckerei mit Holzofen, einen Geldautomaten und einen kostenlosen Pádel-Platz — dazu Spaniens längste Seilrutsche und drei Klettersteige für Abenteuerlustige.",
+    "walks": "Markierte Wanderwege beginnen direkt vor dem Tor und schlängeln sich durch Oliven- und Mandelhaine, vorbei an natürlichen Quellen.",
+    "daytripsHeading": "Tagesausflüge vom Haus",
+    "daytrips": {
+      "beach": { "title": "Torre del Mar", "text": "Der nächste Strand, 30 km entfernt — frischer Fisch an der Promenade inklusive." },
+      "malaga": { "title": "Málaga", "text": "Kultur, Museen und der Atarazanas-Markt, keine Stunde entfernt." },
+      "granada": { "title": "Granada", "text": "Die Alhambra und die Sierra Nevada — Märchen aus Stein." },
+      "cordoba": { "title": "Córdoba", "text": "Die Mezquita, weltweit einzigartig." },
+      "ronda": { "title": "Ronda", "text": "Dramatisch über der Schlucht gelegen." },
+      "caminito": { "title": "Caminito del Rey", "text": "Ein atemberaubender Steig durch die Gaitanes-Schlucht. In der Nähe: El Torcal, die Höhlen von Nerja und der Viñuela-Stausee." }
+    },
+    "mapTitle": "Hier bist du"
+  },
+  "reviews": {
+    "eyebrow": "Gästebewertungen",
+    "heading": "Gäste nennen es ihr Paradies",
+    "ratingLabel": "auf Airbnb, aus {count} Bewertungen",
+    "guestFavourite": "Gästeliebling — eines der beliebtesten Zuhause auf Airbnb",
+    "readAll": "Alle Bewertungen auf Airbnb lesen"
+  },
+  "info": {
+    "eyebrow": "Gut zu wissen",
+    "heading": "Das Praktische",
+    "items": {
+      "checkin": { "title": "An- & Abreise", "text": "Check-in ab 15:00 Uhr, Check-out bis 10:00 Uhr. Du wirst persönlich empfangen." },
+      "car": { "title": "Ein Auto ist unverzichtbar", "text": "Um diesen schönen Teil Andalusiens richtig zu genießen, brauchst du ein Auto. Auf dem Grundstück gibt es kostenlose Stellplätze für drei Autos." },
+      "registration": { "title": "Gästeregistrierung", "text": "Das spanische Gesetz verlangt die Registrierung aller Gäste über 14 Jahre (Ausweis, Adresse, Kontaktdaten). Das erledigen wir bei der Ankunft über eine Check-in-App." },
+      "pets": { "title": "Haustiere", "text": "Haustiere sind nach Absprache willkommen; es fällt eine kleine Gebühr an. Das gesamte Grundstück ist eingezäunt." },
+      "aircon": { "title": "Klimaanlage", "text": "Beide Schlafzimmer haben eine Klimaanlage auf Pay-per-Use-Basis. WLAN gibt es kostenlos im ganzen Haus." },
+      "family": { "title": "Familien", "text": "Reisebett, Hochstuhl sowie Kinderbücher und Spielzeug sind auf Anfrage verfügbar." }
+    },
+    "registrationNumber": "Tourismus-Registrierung: VTAR/MA/0367 (Andalusien)"
+  },
+  "book": {
+    "eyebrow": "Jetzt buchen",
+    "heading": "Andalusien wartet",
+    "text": "Die Villa Cuatro Vientos ist ein Haus für Menschen, die Urlaub fern der belebten Hotspots der Costa del Sol suchen — wo Entspannen leichtfällt und die Schönheit Andalusiens überwältigt.",
+    "airbnb": "Verfügbarkeit auf Airbnb prüfen",
+    "airbnbNote": "Buchung und Bezahlung laufen sicher über Airbnb. Ursulas Antwortrate: 100 %, meist innerhalb einer Stunde.",
+    "questions": "Fragen zum Haus?",
+    "message": "Schreib uns über Airbnb"
+  },
+  "footer": {
+    "tagline": "Ein Familienhaus in den Hügeln der Axarquía — geteilt mit Gästen, die das stille Andalusien lieben.",
+    "navHeading": "Entdecken",
+    "legalHeading": "Angaben",
+    "registration": "Tourismus-Registrierung VTAR/MA/0367 — La Alquería, Comares, Málaga, Spanien",
+    "rights": "Alle Rechte vorbehalten.",
+    "airbnbListing": "Unser Airbnb-Inserat"
+  },
+  "lang": {
+    "label": "Sprache",
+    "en": "English",
+    "es": "Español",
+    "de": "Deutsch"
+  }
+}
