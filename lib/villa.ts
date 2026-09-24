@@ -19,8 +19,6 @@ export const LANGUAGES: { code: Locale; name: string }[] = [
 /** Path of an editorial photograph in `public/editorial` (1536×1024). */
 export const editorial = (id: string) => `/editorial/${id}-editorial.jpg`
 
-export const OG_IMAGE = { url: editorial("37-08899839"), width: 1536, height: 1024 }
-
 export const HERO_VIDEO = "/video/hero.mp4"
 export const HERO_POSTER = "/video/hero-poster.jpg"
 
@@ -54,6 +52,9 @@ export const GALLERY: EditorialPhoto[] = [
   { photo: "32-e913b8af", caption: "patio", pos: "50% 55%" },
   { photo: "37-08899839", caption: "pool", pos: "50% 60%" },
 ]
+
+/** Link-preview (Open Graph) image: the first photo of the home slideshow. */
+export const OG_IMAGE = { url: editorial(GALLERY[0].photo), width: 1536, height: 1024 }
 
 const mapsSearch = (q: string) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`
 const routeTo = (destination: string) =>
