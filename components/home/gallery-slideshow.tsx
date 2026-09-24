@@ -11,7 +11,7 @@ import { TextLink } from "../text-link"
 const pad = (n: number) => String(n).padStart(2, "0")
 
 /** How long each photo stays before the next one fades in. */
-const DWELL = 6000
+const DWELL = 4500
 /** Minimum horizontal travel of a swipe, in px. */
 const SWIPE = 40
 

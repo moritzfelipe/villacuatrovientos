@@ -49,6 +49,7 @@ export interface EditorialPhoto {
 export const GALLERY: EditorialPhoto[] = [
   { photo: "34-88efef95", caption: "terrace", pos: "50% 55%" },
   { photo: "07-d7e62b5f", caption: "kitchen", pos: "50% 50%" },
+  { photo: "28-f7ff94ad", caption: "hills", pos: "50% 55%" },
   { photo: "11-168108cd", caption: "bedroom", pos: "50% 50%" },
   { photo: "32-e913b8af", caption: "patio", pos: "50% 55%" },
   { photo: "37-08899839", caption: "pool", pos: "50% 60%" },
