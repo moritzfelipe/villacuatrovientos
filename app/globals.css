@@ -2,46 +2,115 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  /* Height of the sticky site nav bar. Everything that has to line up with it reads this. */
+  --nav-h: clamp(64px, 8vw, 76px);
+  /* Height of the sticky room nav on The house: 14 + 18 + 13 + 1px link border, plus its 1px rule. */
+  --subnav-h: 46px;
+  --gutter: clamp(24px, 6vw, 108px);
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
+    scroll-padding-top: 98px;
+  }
+
+  /* The house has a second sticky bar: land room anchors flush below both bars. */
+  html:has([data-room-nav]) {
+    scroll-padding-top: calc(var(--nav-h) + var(--subnav-h));
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
   }
 
   body {
-    @apply bg-paper text-ink font-sans antialiased;
-    text-rendering: optimizeLegibility;
+    background: theme("colors.paper");
+    color: theme("colors.ink");
+    font: 400 17px/1.7 theme("fontFamily.serif");
+    font-optical-sizing: auto;
+    -webkit-font-smoothing: antialiased;
   }
 
-  ::selection {
-    @apply bg-azul text-paper;
+  h1,
+  h2,
+  h3 {
+    font-weight: 400;
+    text-wrap: balance;
   }
 }
 
 @layer components {
-  .eyebrow {
-    @apply text-[0.7rem] font-medium uppercase tracking-[0.28em] text-terra;
+  /* Page column: 1480px max, fluid side gutter. */
+  .wrap {
+    max-width: 1480px;
+    margin-inline: auto;
+    padding-inline: var(--gutter);
   }
 
-  .display {
-    @apply font-serif font-medium leading-[1.05] tracking-tight;
+  /* DM Sans UI / label text. */
+  .ui {
+    font-family: theme("fontFamily.sans");
+    font-size: 12px;
+    line-height: 1.5;
   }
 
-  .prose-relaxed {
-    @apply leading-relaxed text-ink-soft;
+  .caption {
+    margin-top: 12px;
+    font-family: theme("fontFamily.sans");
+    font-size: 12px;
+    line-height: 1.5;
+    color: theme("colors.muted");
   }
-}
 
-/* Thin decorative rule with a diamond, echoing Andalusian tilework */
-.tile-rule {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-.tile-rule::before,
-.tile-rule::after {
-  content: "";
-  height: 1px;
-  flex: 1;
-  background: currentColor;
-  opacity: 0.25;
+  .icon {
+    display: block;
+    flex-shrink: 0;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 1.4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  /* Heading scales used across the pages. */
+  .type-page {
+    font-size: clamp(40px, 5.6vw, 84px);
+    line-height: 1.08;
+    letter-spacing: -0.045em;
+  }
+
+  .type-section {
+    font-size: clamp(32px, 3.8vw, 48px);
+    line-height: 1.16;
+    letter-spacing: -0.035em;
+  }
+
+  .type-room {
+    font-size: clamp(30px, 3.4vw, 44px);
+    line-height: 1.16;
+    letter-spacing: -0.035em;
+  }
+
+  /* Rows that nudge right on hover (places, menu pages, next-page link). */
+  .hover-shift {
+    transition: padding-left 0.25s ease;
+  }
+
+  @media (hover: hover) {
+    .hover-shift:hover {
+      padding-left: 8px;
+    }
+  }
+
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
 }

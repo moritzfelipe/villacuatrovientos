@@ -1,137 +1,242 @@
 {
   "meta": {
-    "title": "Villa Cuatro Vientos — Ferienvilla mit Pool bei Comares, Andalusien",
-    "description": "Private Ferienvilla im Herzen der Axarquía, Andalusien. Panoramablick auf die Sierra Nevada und das Mittelmeer, runder Pool und das magische Dorf Comares in Gehweite. Platz für 7 Gäste."
+    "home": {
+      "title": "Villa Cuatro Vientos — Ein privates Ferienhaus auf einer Anhöhe bei Comares, Andalusien",
+      "description": "Ein privates Ferienhaus auf einem Hügel bei Comares in der Axarquía, mit Pool, schattiger Terrasse und Blick über die Berge bis zum Mittelmeer. Platz für sieben Gäste."
+    },
+    "house": {
+      "title": "Das Haus — Villa Cuatro Vientos",
+      "description": "Zwei Schlafzimmer, zwei Bäder, ein privater Patio, Terrassen und ein Pool: ein Rundgang durch die Villa Cuatro Vientos bei Comares, Raum für Raum."
+    },
+    "comares": {
+      "title": "Comares & Umgebung — Villa Cuatro Vientos",
+      "description": "Das weiße Dorf Comares, Wanderwege direkt ab dem Tor, ein Tag am Meer und Ausflüge durch Andalusien – von der Villa Cuatro Vientos aus."
+    },
+    "stay": {
+      "title": "Aufenthalt planen — Villa Cuatro Vientos",
+      "description": "Anreisezeiten, Anfahrt, Klimaanlage, Kinder und Haustiere: die praktischen Details für deinen Aufenthalt in der Villa Cuatro Vientos. Buchung über Airbnb."
+    }
   },
   "nav": {
+    "label": "Villa Cuatro Vientos entdecken",
+    "pagesLabel": "Seiten",
+    "home": "Start",
     "house": "Das Haus",
-    "gallery": "Galerie",
-    "area": "Umgebung",
-    "reviews": "Bewertungen",
-    "info": "Gut zu wissen",
-    "book": "Jetzt buchen"
+    "comares": "Comares & Umgebung",
+    "stay": "Aufenthalt planen",
+    "menu": "Menü",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "close": "Schließen",
+    "language": "Sprache",
+    "availability": "Verfügbarkeit auf Airbnb prüfen",
+    "availabilityShort": "Verfügbarkeit",
+    "menuImages": {
+      "home": "Schatten auf der überdachten Terrasse.",
+      "house": "Das Wohnzimmer öffnet sich zur vorderen Terrasse.",
+      "comares": "Eine weiß gekalkte Gasse in Comares.",
+      "stay": "Der private Pool mit Blick über die Axarquía."
+    }
   },
-  "hero": {
-    "location": "Comares · Axarquía · Andalusien",
-    "tagline": "Ein Haus auf dem Hügel, offen zu allen vier Winden — mit Blick von der Sierra Nevada bis zum Mittelmeer.",
+  "common": {
+    "checkAvailability": "Verfügbarkeit prüfen",
+    "checkAvailabilityAirbnb": "Verfügbarkeit auf Airbnb prüfen",
+    "address": "La Alquería · Comares · Málaga · Spanien",
+    "registration": "Tourismusregistrierung VTAR/MA/0367",
+    "next": "Weiter",
     "reviewsOnAirbnb": "{count} Bewertungen auf Airbnb",
-    "guestFavourite": "Gästeliebling",
-    "book": "Auf Airbnb buchen",
-    "discover": "Das Haus entdecken",
-    "scroll": "Scrollen"
+    "outOf": "/ 5"
   },
-  "intro": {
-    "eyebrow": "Die vier Winde",
-    "heading": "Fern vom Trubel, im Herzen der Axarquía",
-    "p1": "Die Villa Cuatro Vientos steht allein auf einem kleinen Hügel, umgeben von Oliven- und Mandelhainen, einen schönen Spaziergang vom weißen Dorf Comares entfernt. In alle Richtungen ist die Aussicht atemberaubend — Sierra Nevada, Mittelmeer und an klaren Tagen sogar die Küste Marokkos.",
-    "p2": "Das Haus wurde im andalusischen Stil gebaut und von Ursula, der Eigentümerin, liebevoll eingerichtet — mit Fundstücken von ihren Reisen durch Südamerika. Markierte Wanderwege beginnen direkt am Tor; Pool, Patio und eine Hängematte unter der alten Steineiche warten zu Hause.",
-    "hostTitle": "Deine Gastgeberin",
-    "hostText": "„Ich habe mir mein spanisches Traumhaus geschaffen, um es mit Freunden und Familie zu genießen. Die Villa Cuatro Vientos war immer mein Rückzugsort, um abzuschalten und la buena vida zu genießen — und ich hoffe, sie bedeutet meinen Gästen dasselbe. Fühl dich willkommen und genieße es.“ — Ursula",
-    "facts": {
-      "guests": "7 Gäste",
-      "bedrooms": "2 Schlafzimmer",
-      "beds": "5 Betten",
-      "baths": "2 Bäder",
-      "pool": "Privater Pool"
+  "facts": {
+    "guests": { "label": "Gäste", "value": "Bis zu 7" },
+    "bedrooms": { "label": "Schlafzimmer", "value": "2" },
+    "beds": { "label": "Betten", "value": "2 Doppelbetten · 3 Einzelbetten" },
+    "bathrooms": { "label": "Bäder", "value": "2" },
+    "pool": { "label": "Pool", "value": "Privat" }
+  },
+  "places": {
+    "comares": { "name": "Comares", "sub": "Das Dorf", "time": "Zu Fuß erreichbar" },
+    "torre": { "name": "Torre del Mar", "sub": "Der nächste Strand", "time": "40–50 Min. · 30 km" },
+    "nerja": { "name": "Nerja", "sub": "Weiter östlich an der Küste", "time": "50–60 Min." },
+    "malaga": { "name": "Málaga", "sub": "Die Stadt", "time": "Etwa 1 Stunde" },
+    "airport": { "name": "Flughafen Málaga", "sub": "AGP", "time": "Etwa 1 Stunde" },
+    "note": "Ungefähre Fahrzeiten ab der Gegend um Comares, je nach Route und Verkehr."
+  },
+  "home": {
+    "hero": {
+      "label": "Ein privates Ferienhaus auf einer Anhöhe bei Comares, Andalusien",
+      "subtitle": "Seinen Namen verdankt das Haus den vier Winden, die über den Hügel streichen und es den ganzen Sommer über kühl halten.",
+      "soundOn": "Ton einschalten",
+      "soundOff": "Ton ausschalten",
+      "fullscreen": "Im Vollbild ansehen"
+    },
+    "intro": {
+      "title": "Ein Blick, der bis ans Meer reicht.",
+      "text": "Cuatro Vientos steht ganz für sich auf seinem Hügel über Oliven- und Mandelhainen. Von der schattigen Terrasse, vom Pool und aus dem Garten schweift der Blick über die Berge der Axarquía bis zum Mittelmeer, und hier oben siehst du die Sonne auf- und wieder untergehen. Ein Innenhof, Fundstücke von Ursulas Reisen und viele Plätze zum Verweilen machen es zu einem Zuhause auf Zeit, in dem du schnell ankommst.",
+      "link": "Das ganze Haus ansehen",
+      "galleryLabel": "Fotos vom Haus",
+      "slide": "{index} von {count}",
+      "prev": "Vorheriges Foto",
+      "next": "Nächstes Foto",
+      "pause": "Diashow pausieren",
+      "play": "Diashow abspielen",
+      "captions": {
+        "terrace": "Die überdachte Terrasse, mit Blick durch die Bögen zum Pool.",
+        "kitchen": "Die Landhausküche, nur ein paar Schritte von der Terrasse.",
+        "bedroom": "Das erste Schlafzimmer, mit Schreibtisch am Fenster.",
+        "patio": "Der Patio, das Herz des Hauses.",
+        "pool": "Der private Pool mit Blick über die Axarquía."
+      }
+    },
+    "location": {
+      "title": "Ein Gefühl für die Gegend.",
+      "text": "Ein ruhiger Ort in den Hügeln. Küste, Stadt und weiße Dörfer sind von hier aus gut zu erreichen.",
+      "mapsLink": "In Google Maps öffnen",
+      "mapTitle": "Karte von Comares und der östlichen Costa del Sol",
+      "mapCaption": "La Alquería, bei Comares · ungefähre Lage"
+    },
+    "area": {
+      "title": "Die Hügel, das Dorf, das Meer.",
+      "text": "Geh durch das Tor und folge einem Wanderweg in die Hügel. Spaziere nach Comares, durch weiße Gassen und in eine der Dorfbars. Oder fahr ans Meer – die Terrasse wartet auf dich, wenn du zurückkommst.",
+      "link": "Comares entdecken",
+      "caption": "Das Bergdorf Comares."
+    },
+    "reviews": {
+      "label": "Gästebewertungen",
+      "prev": "Vorherige Bewertung",
+      "next": "Nächste Bewertung",
+      "pause": "Bewertungen pausieren",
+      "play": "Bewertungen fortsetzen",
+      "excerpt": "Bearbeiteter Auszug"
     }
   },
   "house": {
-    "eyebrow": "Das Haus",
-    "heading": "Raum zum Durchatmen, drinnen wie draußen",
-    "living": {
-      "title": "Das Wohnzimmer",
-      "text": "Ein großzügiges, lichtdurchflutetes Wohnzimmer mit Holzofen für kühlere Abende. Es öffnet sich direkt zur vorderen Terrasse — und zur Aussicht."
+    "label": "Das Haus",
+    "title": "Ein Zuhause voller Geschichten.",
+    "intro": "Im andalusischen Stil gebaut und von Ursula mit Fundstücken aus Südamerika eingerichtet, verbindet das Haus Wohnräume, Schlafzimmer und Terrassen rund um einen privaten Patio. Während deines Aufenthalts steht dir das ganze Anwesen zur Verfügung.",
+    "leadCaption": "Schatten auf der überdachten Terrasse, mit Blick auf die Axarquía.",
+    "roomsLabel": "Räume",
+    "rooms": {
+      "living": {
+        "short": "Wohnzimmer",
+        "title": "Das Wohnzimmer",
+        "text": "Sichtbare Holzbalken, Terrakottaböden und Erinnerungsstücke von Ursulas Reisen geben dem Wohnzimmer seinen persönlichen Charakter. Setzt euch gemeinsam an den Holzkamin, mach es dir mit einem Buch bequem oder nutze den Esstisch für ein Brettspiel. Die Türen öffnen sich zur vorderen Terrasse und lassen den Alltag im Haus nach draußen übergehen."
+      },
+      "kitchen": {
+        "short": "Küche",
+        "title": "Kochen & Zusammensein",
+        "text": "Die Küche ist ungezwungen, ländlich und gut ausgestattet, um zu Hause zu kochen. Am ausziehbaren Tisch könnt ihr drinnen essen; ein paar Stufen führen zur überdachten Terrasse, wenn es euch nach draußen zieht. Pool und Außendusche liegen gleich daneben, sodass sich ein gemeinsames Mittagessen gut mit einem Bad verbinden lässt."
+      },
+      "bedroomOne": {
+        "short": "Erstes Schlafzimmer",
+        "title": "Das erste Schlafzimmer",
+        "text": "Im Hauptschlafzimmer stehen ein Doppelbett und zwei ausziehbare Einzelbetten hinter einem Paravent. Hier können bis zu vier Gäste ein Zimmer teilen. In einer Ecke befindet sich ein Schreibtisch mit Aussicht. Die Klimaanlage wird nach Verbrauch berechnet."
+      },
+      "bedroomTwo": {
+        "short": "Zweites Schlafzimmer",
+        "title": "Das zweite Schlafzimmer",
+        "text": "Ein Doppelbett und ein zusätzliches Einzelbett bieten Platz für drei Gäste. Es gibt eine Sitzecke, einen Blick nach draußen und einen Zugang durch den Patio sowie durch das Haus. Die Klimaanlage wird nach Verbrauch berechnet."
+      },
+      "bathrooms": {
+        "short": "Bäder",
+        "title": "Zwei Bäder",
+        "text": "Das erste Bad hat eine Dusche und ein WC und ist vom Flur bei den Wohnräumen erreichbar. Das zweite liegt zwischen den Schlafzimmern und verfügt über eine Badewanne und ein WC. Handtücher sind vorhanden."
+      },
+      "patio": {
+        "short": "Patio",
+        "title": "Das Herz des Hauses",
+        "text": "Der private Innenhof verbindet die Räume nach andalusischer Tradition. Ockerfarbene Wände, Terrakottafliesen, Pflanzen und gesammelte Einzelstücke laden zum Verweilen ein: ein paar Seiten lesen, in Ruhe reden, noch eine Stunde zusammensitzen."
+      },
+      "outdoors": {
+        "short": "Terrassen & Pool",
+        "title": "Terrassen, Pool & Garten",
+        "text": "Vom kleinen runden Pool blickst du über die Berge zum Mittelmeer. Rund ums Haus bieten die Terrassen verschiedene Plätze zum Essen, Sitzen und Schauen; neben der überdachten Terrasse liegt die Außendusche. Dahinter erstreckt sich der große eingezäunte Garten mit einer Hängematte unter der alten Steineiche."
+      }
     },
-    "kitchen": {
-      "title": "Die Küche",
-      "text": "Im spanischen Stil: leger, ländlich und gut ausgestattet. Von der Küche geht es hinauf zur überdachten Terrasse — Pool und Außendusche liegen gleich daneben."
+    "captions": {
+      "living": "Das Wohnzimmer öffnet sich zur vorderen Terrasse.",
+      "fireplace": "Der Kamin, dahinter der Esstisch.",
+      "kitchen": "Von der Landhausküche geht es auf die überdachte Terrasse.",
+      "bedroomOne": "Ein Doppelbett, zwei Einzelbetten und eine Ecke zum Schreiben.",
+      "desk": "Der Schreibtisch, hinter dem Paravent die Einzelbetten.",
+      "bedroomTwo": "Ein Doppelbett und ein Einzelbett, mit Zugang durch den Patio.",
+      "bathTwo": "Das zweite Bad, mit Badewanne.",
+      "bathOne": "Das erste Bad, mit Dusche.",
+      "patio": "Der Patio: ein geschützter Ort zum Lesen, Reden und Verweilen.",
+      "pool": "Der private runde Pool und die weite Landschaft der Axarquía.",
+      "arches": "Die Bögen der Terrasse, mit Blick zum Pool."
     },
-    "sleep": {
-      "title": "Schlafzimmer & Bäder",
-      "text": "Zwei Schlafzimmer — eines mit Doppelbett und zwei Einzelbetten, eines mit Doppelbett und Einzelbett — und zwei Bäder. Beide Schlafzimmer haben eine Klimaanlage und wachen mit Aussicht auf."
-    },
-    "patio": {
-      "title": "Der Patio",
-      "text": "Das Herz des Hauses, nach bester andalusischer Tradition: ein privater Innenhof zum ungestörten Lesen, für lange Abendessen oder späte Stunden mit Freunden."
-    },
-    "pool": {
-      "title": "Pool & Garten",
-      "text": "Ein runder Pool mit Blick über die Berge bis zum Meer, viele Terrassen und ein großer, eingezäunter Garten mit viel Privatsphäre — und einer Hängematte unter der alten Steineiche."
-    }
+    "closing": "Platz für sieben – und ein ganzer Hügel für euch allein."
   },
-  "gallery": {
-    "eyebrow": "Galerie",
-    "heading": "Sieh dich um",
-    "filters": {
-      "all": "Alles",
-      "inside": "Wohnen & Küche",
-      "sleep": "Schlafzimmer & Bäder",
-      "outdoors": "Pool, Patio & Garten",
-      "surroundings": "Die Umgebung"
+  "comares": {
+    "label": "Comares & Umgebung",
+    "title": "Andalusien in deinem Tempo.",
+    "intro": "Die Villa Cuatro Vientos steht in La Alquería, nahe dem Bergdorf Comares. Oliven- und Mandelhaine umgeben das Haus, Wanderwege beginnen am Tor und hinter den Hügeln liegt das Mittelmeer. Um die weitere Umgebung zu erkunden, brauchst du ein Auto.",
+    "leadCaption": "Das Bergdorf Comares in der Abenddämmerung.",
+    "sections": {
+      "village": {
+        "title": "Das weiße Dorf",
+        "text": "Comares liegt in Gehweite des Hauses. Folge den Keramikfußspuren durch die engen Gassen, entdecke die maurische Vergangenheit und kehre in einer Bar oder einem Restaurant ein. Zwischen Bäckerei, kleinem Supermarkt und Dorfplätzen geht das alltägliche Leben seinen Gang.",
+        "caption": "Eine weiß gekalkte Gasse in Comares."
+      },
+      "hills": {
+        "title": "Wandern ab dem Gartentor",
+        "text": "Markierte Wege beginnen direkt vor dem Tor und führen durch Oliven- und Mandelhaine, vorbei an natürlichen Quellen. Die Landschaft gehört zum Aufenthalt dazu: Mach eine Wanderung zum Mittelpunkt des Tages und komm anschließend in den Patio oder zum Schwimmen nach Hause.",
+        "caption": "Blick aus den Hügeln zurück nach Comares."
+      },
+      "sea": {
+        "title": "Ein Tag am Meer",
+        "text": "Torre del Mar, der nächste Strand, liegt etwa 30 km vom Haus entfernt. Verbringe einen Tag an der Promenade mit frischem Fisch oder fahre nach Málaga, um Museen, Gassen und den Atarazanas-Markt zu entdecken. Danach kehrst du in die Ruhe der Hügel zurück.",
+        "caption": "Ein Strandcafé an der Küste."
+      },
+      "further": {
+        "title": "Weiter ins Land",
+        "text": "Für einen längeren Ausflug bieten sich Granada mit der Alhambra, die Mezquita in Córdoba, Ronda oder der Caminito del Rey an. Auch El Torcal, Nerja und der Viñuela-Stausee sind mögliche Ziele. Wähle einen Ausflug, der zu deinem Tempo passt, und sieh dir die Route vor der Abfahrt an.",
+        "caption": "Die Alhambra in Granada, dahinter die Sierra Nevada."
+      }
     },
-    "close": "Schließen",
-    "prev": "Vorheriges Foto",
-    "next": "Nächstes Foto",
-    "openPhoto": "Foto öffnen"
-  },
-  "area": {
-    "eyebrow": "Die Umgebung",
-    "heading": "Comares, ein magisches Dorf vor der Tür",
-    "p1": "Das weiße Dorf Comares — gewählt zum „Pueblo Mágico de España“ — liegt in Gehweite. Keramik-Fußspuren führen dich durch die engen maurischen Gassen, und in den lokalen Bars und Restaurants verliebst du dich in die andalusische Hausmannskost.",
-    "p2": "Im Dorf gibt es Supermarkt, Apotheke, eine Bäckerei mit Holzofen, einen Geldautomaten und einen kostenlosen Pádel-Platz — dazu Spaniens längste Seilrutsche und drei Klettersteige für Abenteuerlustige.",
-    "walks": "Markierte Wanderwege beginnen direkt vor dem Tor und schlängeln sich durch Oliven- und Mandelhaine, vorbei an natürlichen Quellen.",
-    "daytripsHeading": "Tagesausflüge vom Haus",
-    "daytrips": {
-      "beach": { "title": "Torre del Mar", "text": "Der nächste Strand, 30 km entfernt — frischer Fisch an der Promenade inklusive." },
-      "malaga": { "title": "Málaga", "text": "Kultur, Museen und der Atarazanas-Markt, keine Stunde entfernt." },
-      "granada": { "title": "Granada", "text": "Die Alhambra und die Sierra Nevada — Märchen aus Stein." },
-      "cordoba": { "title": "Córdoba", "text": "Die Mezquita, weltweit einzigartig." },
-      "ronda": { "title": "Ronda", "text": "Dramatisch über der Schlucht gelegen." },
-      "caminito": { "title": "Caminito del Rey", "text": "Ein atemberaubender Steig durch die Gaitanes-Schlucht. In der Nähe: El Torcal, die Höhlen von Nerja und der Viñuela-Stausee." }
+    "around": {
+      "title": "Unterwegs vor Ort.",
+      "text": "Comares erreichst du zu Fuß. Für die Küste, die Stadt und die weitere Axarquía brauchst du ein Auto.",
+      "mapsLink": "Die Gegend auf Google Maps erkunden"
     },
-    "mapTitle": "Hier bist du"
+    "closing": "Und abends zurück auf die Terrasse."
   },
-  "reviews": {
-    "eyebrow": "Gästebewertungen",
-    "heading": "Gäste nennen es ihr Paradies",
-    "ratingLabel": "auf Airbnb, aus {count} Bewertungen",
-    "guestFavourite": "Gästeliebling — eines der beliebtesten Zuhause auf Airbnb",
-    "readAll": "Alle Bewertungen auf Airbnb lesen"
-  },
-  "info": {
-    "eyebrow": "Gut zu wissen",
-    "heading": "Das Praktische",
+  "stay": {
+    "label": "Aufenthalt planen",
+    "title": "Fühl dich wie zu Hause.",
+    "intro": "Ein privates Haus für Familie und Freunde, mit Platz für gemeinsame Mahlzeiten und Zeit im Freien. Hier findest du die Angaben, die dir bei der Entscheidung helfen, ob die Villa Cuatro Vientos zu deinem Aufenthalt passt. Verfügbarkeit, Preise und Buchung laufen über Airbnb.",
+    "imageCaption": "Der Patio: ein geschützter Ort zum Lesen, Reden und Verweilen.",
     "items": {
-      "checkin": { "title": "An- & Abreise", "text": "Check-in ab 15:00 Uhr, Check-out bis 10:00 Uhr. Du wirst persönlich empfangen." },
-      "car": { "title": "Ein Auto ist unverzichtbar", "text": "Um diesen schönen Teil Andalusiens richtig zu genießen, brauchst du ein Auto. Auf dem Grundstück gibt es kostenlose Stellplätze für drei Autos." },
-      "registration": { "title": "Gästeregistrierung", "text": "Das spanische Gesetz verlangt die Registrierung aller Gäste über 14 Jahre (Ausweis, Adresse, Kontaktdaten). Das erledigen wir bei der Ankunft über eine Check-in-App." },
-      "pets": { "title": "Haustiere", "text": "Haustiere sind nach Absprache willkommen; es fällt eine kleine Gebühr an. Das gesamte Grundstück ist eingezäunt." },
-      "aircon": { "title": "Klimaanlage", "text": "Beide Schlafzimmer haben eine Klimaanlage auf Pay-per-Use-Basis. WLAN gibt es kostenlos im ganzen Haus." },
-      "family": { "title": "Familien", "text": "Reisebett, Hochstuhl sowie Kinderbücher und Spielzeug sind auf Anfrage verfügbar." }
+      "arrival": {
+        "title": "Anreise & Abreise",
+        "text": "Der Check-in ist ab 15 Uhr möglich, der Check-out bis 10 Uhr. Du wirst persönlich empfangen. Stimme die Einzelheiten deiner Ankunft über Airbnb mit den Gastgebern ab."
+      },
+      "travel": {
+        "title": "Ankommen & unterwegs sein",
+        "text": "Ein Auto ist für Ausflüge in diesen Teil Andalusiens unverzichtbar. Auf dem Grundstück gibt es drei kostenlose Stellplätze. Comares liegt in Gehweite; für die Anfahrt zum Haus folgst du am besten den Hinweisen der Gastgeber."
+      },
+      "comfort": {
+        "title": "Klimaanlage & WLAN",
+        "text": "Beide Schlafzimmer haben eine Klimaanlage, die nach Verbrauch berechnet wird. WLAN steht im ganzen Haus kostenlos zur Verfügung."
+      },
+      "children": {
+        "title": "Urlaub mit Kindern",
+        "text": "Reisebett, Hochstuhl, Kinderbücher und Spielzeug sind auf Anfrage vorhanden. Die sieben Schlafplätze verteilen sich auf zwei Schlafzimmer: eines für vier und eines für drei Personen."
+      },
+      "pets": {
+        "title": "Mit Haustier anreisen",
+        "text": "Haustiere sind nach vorheriger Absprache willkommen; dafür fällt eine zusätzliche Gebühr an. Das Grundstück ist eingezäunt. Besprich deinen Aufenthalt mit Haustier bitte vor der Buchung mit den Gastgebern."
+      },
+      "booking": {
+        "title": "Deine Buchung",
+        "text": "Wähle deine Reisedaten auf Airbnb, um den aktuellen Preis und die Stornierungsbedingungen zu sehen. Dort kannst du den Gastgebern auch Fragen zum Haus oder zu deinem Aufenthalt stellen."
+      }
     },
-    "registrationNumber": "Tourismus-Registrierung: VTAR/MA/0367 (Andalusien)"
-  },
-  "book": {
-    "eyebrow": "Jetzt buchen",
-    "heading": "Andalusien wartet",
-    "text": "Die Villa Cuatro Vientos ist ein Haus für Menschen, die Urlaub fern der belebten Hotspots der Costa del Sol suchen — wo Entspannen leichtfällt und die Schönheit Andalusiens überwältigt.",
-    "airbnb": "Verfügbarkeit auf Airbnb prüfen",
-    "airbnbNote": "Buchung und Bezahlung laufen sicher über Airbnb. Ursulas Antwortrate: 100 %, meist innerhalb einer Stunde.",
-    "questions": "Fragen zum Haus?",
-    "message": "Schreib uns über Airbnb"
-  },
-  "footer": {
-    "tagline": "Ein Familienhaus in den Hügeln der Axarquía — geteilt mit Gästen, die das stille Andalusien lieben.",
-    "navHeading": "Entdecken",
-    "legalHeading": "Angaben",
-    "registration": "Tourismus-Registrierung VTAR/MA/0367 — La Alquería, Comares, Málaga, Spanien",
-    "rights": "Alle Rechte vorbehalten.",
-    "airbnbListing": "Unser Airbnb-Inserat"
-  },
-  "lang": {
-    "label": "Sprache",
-    "en": "English",
-    "es": "Español",
-    "de": "Deutsch"
+    "book": {
+      "title": "Prüf deine Reisedaten.",
+      "text": "Auf Airbnb siehst du den aktuellen Preis und die Stornierungsbedingungen – dort kannst du den Gastgebern auch Fragen zum Haus stellen.",
+      "note": "Buchung und Bezahlung erfolgen über Airbnb."
+    }
   }
 }

@@ -1,24 +1,28 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Cormorant_Garamond, Karla } from "next/font/google"
+import { DM_Sans, Literata } from "next/font/google"
 import { notFound } from "next/navigation"
 import { NextIntlClientProvider, hasLocale } from "next-intl"
-import { getTranslations, setRequestLocale } from "next-intl/server"
+import { setRequestLocale } from "next-intl/server"
 import { routing } from "@/i18n/routing"
+import { Footer } from "@/components/footer"
+import { MenuProvider } from "@/components/nav/menu-provider"
 import "../globals.css"
 
-const cormorant = Cormorant_Garamond({
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
+// Literata: variable weight and optical size, roman and italic. Body and headings.
+const literata = Literata({
+  subsets: ["latin", "latin-ext"],
   style: ["normal", "italic"],
-  variable: "--font-serif",
+  axes: ["opsz"],
+  variable: "--font-literata",
   display: "swap",
 })
 
-const karla = Karla({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
-  variable: "--font-sans",
+// DM Sans: small UI and label text.
+const dmSans = DM_Sans({
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "500"],
+  variable: "--font-dm-sans",
   display: "swap",
 })
 
@@ -26,28 +30,8 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }))
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string }>
-}): Promise<Metadata> {
-  const { locale } = await params
-  const t = await getTranslations({ locale, namespace: "meta" })
-
-  return {
-    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://villacuatrovientos.com"),
-    title: t("title"),
-    description: t("description"),
-    openGraph: {
-      title: t("title"),
-      description: t("description"),
-      type: "website",
-      images: [{ url: "/gallery/37-08899839.jpg", width: 1920, height: 1285 }],
-    },
-    alternates: {
-      languages: Object.fromEntries(routing.locales.map((l) => [l, `/${l}`])),
-    },
-  }
+export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.villacuatrovientos.com"),
 }
 
 export default async function LocaleLayout({
@@ -64,9 +48,17 @@ export default async function LocaleLayout({
   setRequestLocale(locale)
 
   return (
-    <html lang={locale} className={`${cormorant.variable} ${karla.variable}`}>
+    <html lang={locale} className={`${literata.variable} ${dmSans.variable}`}>
       <body>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <MenuProvider>
+            {/* Pages render their nav as a direct child here, so the sticky bar stays up through the footer. */}
+            <div className="relative">
+              {children}
+              <Footer />
+            </div>
+          </MenuProvider>
+        </NextIntlClientProvider>
       </body>
     </html>
   )

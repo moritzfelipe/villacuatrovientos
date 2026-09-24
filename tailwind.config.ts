@@ -1,40 +1,27 @@
 import type { Config } from "tailwindcss"
 
 const config: Config = {
-  content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}"],
+  content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./lib/**/*.{ts,tsx}"],
   theme: {
+    // Breakpoints of the design: narrow < 600, wide ≥ 900, extra wide ≥ 1080.
+    screens: {
+      sm: "600px",
+      md: "900px",
+      lg: "1080px",
+    },
     extend: {
       colors: {
-        paper: {
-          DEFAULT: "#F4F1EA",
-          deep: "#EBE6DA",
-        },
-        ink: {
-          DEFAULT: "#2A251C",
-          soft: "#5C554A",
-          faint: "#8C8477",
-        },
-        azul: {
-          DEFAULT: "#105F9A",
-          deep: "#0C4A78",
-          wash: "#E3EDF5",
-        },
-        terra: {
-          DEFAULT: "#B05C33",
-          deep: "#94481F",
-          wash: "#F3E4D8",
-        },
-        olive: "#7D7B5A",
+        paper: "#f8f7f4",
+        ink: "#242422",
+        muted: "#646461",
+        rule: "#d6d5cf",
+        mist: "#eeede8",
+        faint: "#aaa",
+        char: "#343633",
       },
       fontFamily: {
-        serif: ["var(--font-serif)", "Georgia", "serif"],
-        sans: ["var(--font-sans)", "system-ui", "sans-serif"],
-      },
-      borderRadius: {
-        arch: "999px 999px 0 0",
-      },
-      maxWidth: {
-        content: "72rem",
+        serif: ["var(--font-literata)", "Georgia", "serif"],
+        sans: ["var(--font-dm-sans)", "Arial", "sans-serif"],
       },
     },
   },
